@@ -82,15 +82,15 @@
     </div>
     <a-scene mindar-image="uiScanning: #example-scanning-overlay; imageTargetSrc: ./targets.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
       <a-assets>
-        <img id="card" src="./alethea-logo.jpg" />
+<!--         <img id="card" src="./alethea-logo.jpg" /> -->
         <a-asset-item id="avatarModel"  src="https://cdn.jsdelivr.net/gh/aleeeghazi/project-custom-ui.github.io@master/assets/George.gltf"></a-asset-item>
       </a-assets>
 
       <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
       <a-entity mindar-image-target="targetIndex: 0">
-        <a-plane src="#card" position="0 0 0" height="1" width="1" rotation="0 0 0"></a-plane>
-        <a-gltf-model rotation="0 0 0 " position="0 0 0.1" scale="1 1 1" src="#avatarModel"
+<!--         <a-plane src="#card" position="0 0 0" height="1" width="1" rotation="0 0 0"></a-plane> -->
+        <a-gltf-model rotation="0 0 0 " position="0 0 0.1" scale="2 2 2" src="#avatarModel"
           animation-mixer
         >
       </a-entity>
